@@ -112,7 +112,7 @@ header .logo img {
 
 .first img{
     height: 80px;
-    padding: 10px;
+    padding: 8px;
 }
 
 .first img .pro-img{
@@ -122,6 +122,8 @@ header .logo img {
 .products .pro-img{
     margin-left: 25px;
     font-size: 13px;
+    font-weight: 500;
+    font-family: SF Pro Display,SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;;
 }
 
 .heading-1 h1{
@@ -133,4 +135,18 @@ header .logo img {
 
 .heading-1 span{
     color: black;
+}
+.products .mac{
+  padding-left: 23px;
+}
+
+.products .airtag{
+  padding-left: 14px;
+}
+
+.products .mid{
+  padding-left: 14px;
+}
+.products .airpods{
+  padding-left: 11px;
 }
