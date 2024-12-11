@@ -150,3 +150,56 @@ header .logo img {
 .products .airpods{
   padding-left: 11px;
 }
+
+.card1{
+  display: flex;
+  height: 650px;
+  justify-content: center;
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box .boxx img{
+  height: 600px;
+  width: 467px;
+  border-radius: 6%;
+ 
+}
+
+/* .boxx{
+  padding: 15px;
+  
+}
+
+.boxx:hover{
+  padding-top: 4px;
+  
+}
+.boxx img:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 56%), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} */
+.boxx {
+  padding: 15px;
+  transition: transform 0.3s ease-in-out, padding-top 0.3s ease-in-out; /* Added transition */
+}
+
+.boxx:hover {
+  padding-top: 4px;
+  transform: scale(1.02); /* Optional: adds a slight zoom effect */
+}
+
+.boxx img {
+  height: 600px;
+  width: 467px;
+  border-radius: 6%;
+  transition: box-shadow 0.3s ease-in-out; /* Added transition */
+}
+
+.boxx img:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.507), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
