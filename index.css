@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-    background-color: rgba(223, 221, 221, 0.334);
+  background-color: rgba(223, 221, 221, 0.334);
 }
 
 header {
@@ -68,23 +68,23 @@ header .logo img {
   margin-right: 53px;
 }
 
-.photos{
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-    margin-left: 21px;
+.photos {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-left: 21px;
 }
-.photos img{
-    height: 40px;
+.photos img {
+  height: 40px;
 }
 
-.support-name{
-    display: flex;
-    flex-direction: column;
-    gap:15px;
-    font-size: 14px;
-    font-weight: 600;
-    width: 190px;
+.support-name {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 14px;
+  font-weight: 600;
+  width: 190px;
 }
 
 .banner .font {
@@ -95,79 +95,80 @@ header .logo img {
 .font .Stor {
   color: black;
 }
-.support-name a{
-    text-decoration: none;
-    color: #0066cc;
+.support-name a {
+  text-decoration: none;
+  color: #0066cc;
 }
 
-.first{
-    display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        overflow: hidden;
-        height: 150px;
-        gap: 45px;
-    }
-
-.first img{
-    height: 80px;
-    padding: 8px;
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+  height: 150px;
+  gap: 45px;
 }
 
-.first img .pro-img{
-    margin-left: 2px;
+.first img {
+  height: 80px;
+  padding: 8px;
 }
 
-.products .pro-img{
-    margin-left: 25px;
-    font-size: 13px;
-    font-weight: 500;
-    font-family: SF Pro Display,SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;;
+.first img .pro-img {
+  margin-left: 2px;
 }
 
-.heading-1 h1{
-    margin-top: 60px;
-    margin-left: 115px;
-    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
-    color: rgba(61, 61, 61, 0.834);
+.products .pro-img {
+  margin-left: 25px;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
 }
 
-.heading-1 span{
-    color: black;
+.heading-1 h1 {
+  margin-top: 60px;
+  margin-left: 115px;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  color: rgba(61, 61, 61, 0.834);
 }
-.products .mac{
+
+.heading-1 span {
+  color: black;
+}
+.products .mac {
   padding-left: 23px;
 }
 
-.products .airtag{
+.products .airtag {
   padding-left: 14px;
 }
 
-.products .mid{
+.products .mid {
   padding-left: 14px;
 }
-.products .airpods{
+.products .airpods {
   padding-left: 11px;
 }
 
-.card1{
+.card1 {
   display: flex;
   height: 650px;
   justify-content: center;
 }
 
-.box{
+.box {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.box .boxx img{
+.box .boxx img {
   height: 600px;
   width: 467px;
   border-radius: 6%;
- 
 }
 
 /* .boxx{
@@ -193,8 +194,6 @@ header .logo img {
 }
 
 .boxx img {
-  height: 600px;
-  width: 467px;
   border-radius: 6%;
   transition: box-shadow 0.3s ease-in-out; /* Added transition */
 }
@@ -202,4 +201,96 @@ header .logo img {
 .boxx img:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.507), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+.apple-store {
+  display: inline-flex;
+  height: 300px;
+  width: 100%;
+  padding-top: 15px;
+  justify-content: space-evenly;
+  gap: 10px;
+  overflow: hidden;
+}
+
+.apple-store .cards-apple-store {
+  border-radius: 6%;
+  background-color: white;
+  width: 330px;
+  padding: 20px;
+  height: 250px;
+  
+  transition: transform 0.5s ease, box-shadow 0.5s ease; /* Smooth and slow transition */
+}
+
+.apple-store .cards-apple-store:hover {
+  transform: scale(1.05); /* Slight zoom effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.507), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.apple-store .cards-apple-store img {
+  border-radius: 3%; /* Ensures consistent styling for images */
+  transition: box-shadow 0.5s ease-in-out; /* Smooth transition for images */
+}
+
+.apple-store .cards-apple-store .content {
+  text-align: center; /* Ensures content inside the card stays unaffected */
+}
+
+.cards-apple-store .cards-apple-store-content {
+  overflow: hidden;
+  padding: 8px;
+}
+
+.cards-apple-store .cards-apple-store-icon {
+  height: 50px;
+}
+.cards-apple-store .cards-apple-store-icon i {
+  font-size: 40px;
+}
+
+.cards-apple-store .icon-1 {
+  color: green;
+}
+
+.cards-apple-store .icon-2 {
+  color: rgba(0, 0, 255, 0.658);
+}
+
+.cards-apple-store .icon-3 i {
+  font-size: 50px;
+  background: linear-gradient(to left, #ff7e5f, #feb47b); /* Gradient colors */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cards-apple-store .icon-4 {
+  color: rgba(128, 0, 128, 0.512);
+}
+
+.cards-apple-store-text {
+  font-weight:550;
+  margin-top: 10px;
+  font-size: 24px;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+}
+
+.cards-apple-store-content .text-2 p span {
+  color: rgba(0, 0, 255, 0.649);
+}
+.cards-apple-store-content .text-3 p {
+  background: linear-gradient(
+    to left,
+    #c45fffc1,
+    rgb(67, 159, 215),
+    #f7af78
+  ); /* Gradient colors */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cards-apple-store-content .text-4 p span {
+  color: rgba(128, 0, 128, 0.501);
+}
+
 
