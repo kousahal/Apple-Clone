@@ -110,6 +110,10 @@ header .logo img {
   gap: 45px;
 }
 
+.first .products img:hover{
+  transform: scale(1.02);
+}
+
 .first img {
   height: 80px;
   padding: 8px;
@@ -246,29 +250,31 @@ header .logo img {
 }
 .cards-apple-store .cards-apple-store-icon i {
   font-size: 40px;
+  font-weight: 700;
 }
 
 .cards-apple-store .icon-1 {
-  color: green;
+  color: rgb(1, 113, 1);
 }
 
 .cards-apple-store .icon-2 {
-  color: rgba(0, 0, 255, 0.658);
+  color: rgba(0, 0, 197, 0.789);
 }
 
 .cards-apple-store .icon-3 i {
   font-size: 50px;
-  background: linear-gradient(to left, #ff7e5f, #feb47b); /* Gradient colors */
+  background: linear-gradient(to left, #f77f61, #ffac6d); /* Gradient colors */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .cards-apple-store .icon-4 {
-  color: rgba(128, 0, 128, 0.512);
+  color: rgba(128, 0, 128, 0.67);
 }
 
 .cards-apple-store-text {
   font-weight:550;
+  color: rgba(30, 30, 30, 0.784);
   margin-top: 10px;
   font-size: 24px;
   font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
@@ -276,7 +282,7 @@ header .logo img {
 }
 
 .cards-apple-store-content .text-2 p span {
-  color: rgba(0, 0, 255, 0.649);
+ color : rgba(0, 0, 197, 0.789);
 }
 .cards-apple-store-content .text-3 p {
   background: linear-gradient(
@@ -293,4 +299,69 @@ header .logo img {
   color: rgba(128, 0, 128, 0.501);
 }
 
+footer{
+  padding-left: 150px;
+}
+
+.quick-links{
+  display: flex;
+  padding-top: 1000px;
+}
+.quick-links h1{
+  color: #1d1d1f;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: .007em;
+    line-height: 1.1428571429;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    
+}
+
+
+footer .buttons a{
+  
+  font-size: 14px;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+  border: 1px solid rgba(0, 0, 0, 0.532);
+  border-radius:25px;
+  padding: 10px;
+  width: 100px;
+  text-decoration: none;
+  color: black;
+  margin: 5px;
+}
+.buttons a:hover{
+  background-color: black;
+}
+
+.hyper:hover{
+  color: white;
+  text-decoration: underline;
+}
+
+footer .content p{
+  padding: 60px 311px 0 100px ;
+  font-size: 12px;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #0000008f;
+}
+
+.apple-store-online .headings a{
+  display: flex;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+  padding: 20px;
+  padding-left:100px;
+  gap: 28px;
+  font-size: 18px;
+  align-items: center;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.71);
+}
+
+.apple-store-online p{
+  flex-direction: column;
+  margin-left: 100px;
+}
 
